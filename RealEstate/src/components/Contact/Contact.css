@@ -1,0 +1,67 @@
+.c-container{
+    justify-content: space-between;
+
+}
+
+.c-container div{
+    flex:1;
+
+
+}
+
+.c-right img{
+    margin-top: 35% !important;
+    margin:0  -20%;
+    
+    width: 130%;
+}
+
+.c-left{
+    gap: 0.5rem;
+}
+
+
+.contactModes{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.contactModes .row{
+    gap: 1.5rem;
+}
+.mode{
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(47, 47, 47, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.row .button{
+    width: 100%;
+    background: #eeeeff;
+    color: #4066ff;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.mode   >:nth-child(1){
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.mode .detail .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.mode:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+
+ .row  .button:hover{
+    color: rgb(77, 75, 75) ;
+    scale: 1.1;;
+}

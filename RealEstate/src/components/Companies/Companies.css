@@ -1,0 +1,9 @@
+.c-container{
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.c-container img{
+    padding-top: 3rem;
+    width: 9rem;
+}
